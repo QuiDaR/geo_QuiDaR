@@ -37,7 +37,7 @@ const init = () => {
             marcador.setStyle(new ol.style.Style({
                 image: new ol.style.Icon(({
                     src: icono,
-                    scale: 1 // Aquí puedes ampliar o disminuir la imagen
+                    scale: 0,1 // Aquí puedes ampliar o disminuir la imagen
                 })),
             }));
             const ultimaCapa = new ol.layer.Vector({
