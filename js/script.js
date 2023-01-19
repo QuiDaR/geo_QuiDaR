@@ -13,7 +13,7 @@ const init = () => {
         const coordenadas = ubicacion.coords;
         let { latitude, longitude } = coordenadas;
 
-        const icono = "Logo MAno QR.png";
+        const icono = "Logo MAno QR.png" alt="Logo" heigt="300";
         
         if (!mapa) {
             // Primera vez, lo creamos y centramos
