@@ -13,7 +13,7 @@ const init = () => {
         const coordenadas = ubicacion.coords;
         let { latitude, longitude } = coordenadas;
 
-        const icono = "Logo MAno QR.png";
+        const icono = "Logo MAno QR.png" ;
         
         if (!mapa) {
             // Primera vez, lo creamos y centramos
@@ -37,7 +37,7 @@ const init = () => {
             marcador.setStyle(new ol.style.Style({
                 image: new ol.style.Icon(({
                     src: icono,
-                    scale: 0.05 // Aquí puedes ampliar o disminuir la imagen
+                    scale: 0.5 // Aquí puedes ampliar o disminuir la imagen
                 })),
             }));
             const ultimaCapa = new ol.layer.Vector({
